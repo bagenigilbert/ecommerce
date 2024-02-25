@@ -36,6 +36,17 @@ a {
 .gap-30{
     gap: 30px;
 }
+.btn{
+    background-color: var(--color-232f3e);
+    color: white;
+    font-size: 14px;
+    padding: 13px 33px;
+    border-radius: 25px;
+}
+.btn:hover{
+    background-color: var(--color-febd69);
+    color: #131921;
+}
 
 /* Header part*/
 .header-top-strip {
@@ -115,3 +126,64 @@ footer.input-group-text {
 }
 
 /* Footer part End Here*/
+
+
+/* Home Page */
+.main-banner-content {
+    top: 5%;
+    left: 5%;
+}
+.main-banner-content h4{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--color-bf4800);
+    margin: 0 0 12px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+.main-banner-content h5{
+    font-size: 42px;
+   line-height: 54px;
+    letter-spacing: -2px;
+    font-weight: 500;
+    text-transform: none;
+}
+.main-banner-content p{
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.3fpx;
+    color: var(--color-777777);
+    margin: 0 0 20px;
+}
+
+
+.main-banner-content {
+    top: 5%;
+    left: 5%;
+}
+.main-banner-content h4{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--color-bf4800);
+    margin: 0 0 12px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+.main-banner-content h5{
+    font-size: 42px;
+   line-height: 54px;
+    letter-spacing: -2px;
+    font-weight: 500;
+    text-transform: none;
+}
+.main-banner-content p{
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.3fpx;
+    color: var(--color-777777);
+    margin: 0 0 20px;
+}
+
+/* Home Page  ends here*/

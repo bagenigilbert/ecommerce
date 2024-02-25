@@ -1,5 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithubSquare } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
+
 
 const Footer = () => {
   const currentDate = new Date();
@@ -45,6 +50,24 @@ const Footer = () => {
                     Ngong Lane : 183 Near ngong lane plaza, <br /> Presitege,Adams <br/>
                     pincode: 141001
                   </address>
+              <a href='tel:+254-746-741-719' className='mt-3 d-block mb-1 text-white'>+254-746-741-719</a>
+              <a href='bagenigilbert@gmail.com' className='mt-2 d-block mb-0 text-white'>bagenigilbert@gmail.com</a>
+      <div className='social-icons d-flex align-items-center gap-30 mt-4'>
+                <a href=''>
+            <FaLinkedin className='fs-4 text-white'/>
+                </a>
+                <a href=''>
+               <FaGithubSquare className='fs-4 text-white'/>
+                </a>
+                <a href=''>
+                <FaYoutube className='fs-4 text-white'/>
+                </a>
+                <a href=''>
+                <FaInstagramSquare className='fs-4 text-white'/>
+                </a>
+               
+
+              </div>
               </div>                
               </div>
               <div className='col-3'>
@@ -63,10 +86,11 @@ const Footer = () => {
                 <Link className='text-white py-2 mb-1'>About Us</Link>
                 <Link className='text-white py-2 mb-1'>Faq</Link>
                 <Link className='text-white py-2 mb-1'>Contact</Link>
-              </div>              </div>
+              </div>            
+              </div>
 
               <div className='col-2'>
-                   <h4 className='text-white mb-4'>Quick Links</h4>
+                <h4 className='text-white mb-4'>Quick Links</h4>
               <div className='footer-links d-flex flex-column'>
                 <Link className='text-white py-2 mb-1'>Laptops</Link>
                 <Link className='text-white py-2 mb-1'>Headphones</Link>
@@ -74,11 +98,8 @@ const Footer = () => {
                 <Link className='text-white py-2 mb-1'>Watches</Link>
               </div>
             </div>
-
-             
-             
-              </div>
-              </div>
+            </div>
+            </div>
              
       </footer>
       <footer className='py-4'>
