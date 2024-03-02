@@ -56,13 +56,13 @@ const Footer = () => {
                 <a href=''>
             <FaLinkedin className='fs-4 text-white'/>
                 </a>
-                <a href=''>
+                <a href='#'>
                <FaGithubSquare className='fs-4 text-white'/>
                 </a>
-                <a href=''>
+                <a href='#'>
                 <FaYoutube className='fs-4 text-white'/>
                 </a>
-                <a href=''>
+                <a href='#'>
                 <FaInstagramSquare className='fs-4 text-white'/>
                 </a>
                
